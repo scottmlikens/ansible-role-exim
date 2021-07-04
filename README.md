@@ -1,8 +1,6 @@
-# Ansible Role: Exim
+# Ansible Role: Exim 
 
-[![CI](https://github.com/geerlingguy/ansible-role-exim/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-exim/actions?query=workflow%3ACI)
-
-Installs Exim (a Mail Transfer Agent) on RedHat/CentOS or Debian/Ubuntu.
+Installs Exim (a Mail Transfer Agent) for Ubuntu allowing further customization if you host email.
 
 ## Requirements
 
@@ -32,7 +30,7 @@ None.
 
     - hosts: servers
       roles:
-        - geerlingguy.exim
+        - scottmlikens.exim
 
 ## License
 
@@ -40,4 +38,4 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2015 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This role was created in 2015 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).  It was modified by [Scott M. Likens](https://github.com/scottmlikens) in 2021.
